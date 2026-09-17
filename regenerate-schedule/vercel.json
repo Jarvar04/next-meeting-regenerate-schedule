@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node"
+    }
+  ],
+  "outputDirectory": "public",
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/B0E7F18B-4CF5-49FF-BBD3-75E1CA52AA5E.html"
+    }
+  ]
+}
